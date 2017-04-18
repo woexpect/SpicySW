@@ -25,7 +25,11 @@
 }
 
 .texto-accent{
-	color: #FFAB40;
+	color: #F00530;
+}
+
+.texto-accent-bg{
+    color: #482d32;   
 }
 
 .img-icon-services{
@@ -262,6 +266,10 @@ hr.small {
 
 @media (max-width: 767px) {
 
+    .buttons {
+        display: none;
+    }
+
 	.btn-dark {
 	    border-radius: 50;
 	    color: black;
@@ -304,7 +312,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../resources/background1.jpg) no-repeat center center scroll;
+    background: url(../resources/bg1.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
