@@ -77,7 +77,7 @@ p a {
 }
 
 p a:hover {
-	color: #FFAB40;
+	color: #F00530;
 }
 /*!
  * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
@@ -266,7 +266,7 @@ hr.small {
 
 @media (max-width: 767px) {
 
-    .buttons {
+    .cont {
         display: none;
     }
 
