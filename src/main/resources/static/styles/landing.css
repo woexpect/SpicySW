@@ -46,6 +46,19 @@
 	height: 30%;
 }
 
+@-moz-document url-prefix() {
+    #spicy-header{
+		width: 30%;
+	}
+}
+
+@supports (-ms-ime-align:auto) {
+    #spicy-header{
+    	height: auto;
+		width: 40%;
+	}
+}
+
 .content{
 	position: absolute;
 }
@@ -264,7 +277,7 @@ hr.small {
 	background-color: #f5f5f5;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
 
     .cont {
         display: none;
@@ -303,6 +316,14 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.service-item h4{
+	height: 50px;
+}
+
+.service-item .text-ident{
+	height: 90px;
 }
 
 /* Callout */
@@ -399,6 +420,19 @@ footer {
           transition: all .1s ease-out;  
 }
 
+.buttons-ico {
+  box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 
+              0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 20px auto 0;
+  position: relative;
+  -webkit-transition: all .1s ease-out;
+          transition: all .1s ease-out;  
+}
+
 .buttons:active, 
 .buttons:focus, 
 .buttons:hover {
@@ -454,6 +488,7 @@ footer {
   background-image: url('http://cbwconline.com/IMG/Google%20Plus.svg');
   background-size: contain;
 }
+
 
 /* Show tooltip content on hover */
 
