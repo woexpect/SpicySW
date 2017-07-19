@@ -166,23 +166,23 @@
               </div>
 
               <div class="col-sm-8 pl0 pr0">
-                <form id="contact_form" class="row" method="post" action="php/mailer.php">
+                <form id="contact_form" class="row" onsubmit="send_mail(this);">
                     <div class="col-sm-6 col-xs-12 ">
                       <!-- <label for="name">Full Name</label> -->
                       <!-- <span class="placeholder-icon ion-android-person"></span> -->
-                      <input type="name" name="name" class="input-name input-field" placeholder="Nombre Completo">
+                      <input id="nombre" type="name" name="name" class="input-name input-field" placeholder="Nombre Completo">
                     </div>
 
                     <div class="col-sm-6 col-xs-12 pl5">
                       <!-- <label for="email">Email Address</label> -->
                       <!-- <span class="placeholder-icon ion-android-mail pl5"></span> -->
-                      <input type="email" name="email" class="input-email input-field" placeholder="Dirección de correo">
+                      <input id="email" type="email" name="email" class="input-email input-field" placeholder="Dirección de correo">
                     </div>
 
                     <div class="col-sm-12 col-xs-12">
                       <!-- <label for="message">Message</label> -->
                       <!-- <span class="placeholder-icon ion-android-chat"></span> -->
-                      <textarea name="message" class="input-message" placeholder="Mensaje"></textarea>
+                      <textarea id="message" name="message" class="input-message" placeholder="Mensaje"></textarea>
                     </div>
 
                     <div class="col-sm-12 col-xs-12">
@@ -419,5 +419,15 @@
       };
       </script>
       <script src="js/script.js"></script>
+	  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script type="text/javascript">
+		  (function(){
+			  emailjs.init("user_PvWk5jrMFlml3ClnAEGwy");
+		   })();
+		   
+		   function send_mail(form){
+			emailjs.send("mailsender","ieUNzqsc",{name: form.name.value, mensaje: form.message.value, correo: form.email.value});
+		   }
+      </script>
   </body>
 </html>
