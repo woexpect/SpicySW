@@ -1,0 +1,475 @@
+/* ------------------------------------- */
+/* 8. Media Queries .................... */
+/* ------------------------------------- */
+
+
+@include large-desktop {
+  body {@include fontStack($raleway, 1.6em, 1.6);}
+
+    .main-logo {max-width: 150px;}
+
+
+  #subscribe {
+    width: 800px;
+    margin-left: calc( 50% - 400px);
+    padding: 150px 100px;
+
+  }
+
+  #subscribe-form {
+    .input-email {
+      font-size: 1em;
+      padding: 0px 20px;
+      height: em(44px);
+    }
+    .input-submit {
+      height: em(44px);
+    }
+
+    #subscribe-result {
+      padding: 20px 50px;
+      height: 150px;
+      bottom: -150px;
+      left: -100px;
+      right: -100px;
+    }
+    .btn-solid {
+      padding: em(10px) em(40px); }
+    .btn-light {
+      padding: em(10px) em(40px); }
+
+  }
+
+  #contact_form {
+    font-size: em(14px);
+
+    div {
+      padding: 0 em(5px);
+    }
+
+    .input-name {
+      margin-bottom: em(10px);
+      padding: em(10px);
+      height: em(45px);
+    }
+
+    .input-message {
+      height: em(100px);
+    }
+
+    .submit {
+      height: em(40px);
+
+    }
+  }
+
+
+
+
+  address {
+    margin-top: em(25px) !important;
+    span {
+      font-size: em(16px);
+    }
+
+    i {
+      padding-right: em(5px);
+    }
+  }
+
+  .launch-date {
+    height: em(160px);
+    h2 {
+      margin-bottom: em(-5px);
+      margin-top: em(-5px);
+    }
+  }
+
+}
+
+@include extra-large-desktop {
+  body {@include fontStack($raleway, 2em, 1.6);}
+}
+
+@include medium {
+
+  #leftSide {@include sides(relative, 0, 0, 100% );
+    #info {display: none;}
+    height: 100vh;
+    z-index: 2;
+  }
+
+  #rightSide {
+    @include sides(relative, 0, 0, 100%, auto);
+    padding: 0;
+
+    #rightContent {
+      width: 100%;
+      @include vendor-prefix(transform, translateX(0));
+      .close-bar {
+        display: none;
+      }
+    }
+
+    &.img-only {
+      height: 100vh;
+    }
+  }
+
+
+
+  #home {
+    left: -15px;
+
+    .h-content {
+      position: relative;
+      z-index: 0;
+      margin: 50px 0;
+      color: $white;
+
+      .ion-heart {
+        color: $crimson;
+      }
+
+      &.top-34 {top: 34vh;}
+      &.top-28 {top: 20vh;}
+      &.top-25 {top: 20vh;}
+      &.top-20 {top: 20vh;}
+      &.top-15 {top: 13vh;}
+      &.top-12 {top: 12vh;}
+      &.top-10 {top: 10vh;}
+
+    }
+  }
+
+
+  .main-logo {
+    position: relative;
+   max-width: 125px;
+ }
+
+ .vertical-result {
+
+   #subscribe-result {
+     position: absolute !important;
+     width:157%;
+     transform: translateY(100%);
+     @include vendor-prefix(transition, $medium-transition);
+     bottom: 0;
+     left: -25%;
+     right: 0;
+     padding: 20px 50px;
+     margin-top: 60px;
+     text-align: left;
+     z-index: 9;
+   }
+ }
+
+
+}
+
+
+@include tablet {
+  .full-height {height:  100vh;}
+
+  .percent84 {width: 100% !important;}
+
+  body {@include fontStack($raleway, 1em, 1.6);}
+
+  #home {
+    .h-content {
+      top: 0;
+    }
+  }
+
+  #contact_form {
+    > div {padding: 0 15px;}
+    .input-name {width: 100%;}
+  }
+  p {font-size: 1em;}
+
+  .background-img-holder {
+    height: 100vh !important;
+  }
+
+  #leftSide {
+      height: 100vh;
+      z-index: 2;
+  }
+
+  #rightSide {
+    &.img-only {
+      height: 100vh;
+    }
+  }
+
+  .h-content {
+    top: 20vh;
+  }
+
+  #home {
+    height: 100%;
+  }
+
+  .social_tab {
+    &.fixed {
+      position: absolute !important;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .copyright {
+    &.fixed {
+      position: absolute !important;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+  }
+
+
+}
+
+@include  landscape-phone {
+
+  body {@include fontStack($raleway, 0.75em, 1.6);}
+
+  #leftSide {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #rightSide {
+    position: relative !important;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .time-dash {
+    position: relative !important;
+    top: auto;
+    width: 100%;
+  }
+
+    .main-logo {
+      max-width: 100px;
+     }
+
+    .social_tab {
+      &.fixed {
+        position: relative !important;
+        margin: 40px 0;
+      }
+    }
+
+
+    .copyright.fixed {
+      position: relative !important;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+    .align-bottom {
+      bottom: 0;
+    }
+
+    .main-logo.align-bottom {
+      bottom: 25px;
+    }
+
+
+
+    #home {
+      .h-content {
+        &.top-34 {top: auto;}
+        &.top-28 {top: auto;}
+        &.top-25 {top: auto;}
+        &.top-20 {top: auto;}
+        &.top-15 {top: auto;}
+        &.top-12 {top: auto;}
+        &.top-10 {top: auto;}
+      }
+    }
+
+}
+
+@include phone {
+
+  body {@include fontStack($raleway, 0.75em, 1.6);}
+
+  #container {
+    &.angle {
+      position: relative;
+    }
+  }
+
+  .main-logo {max-width: 100px;}
+
+  #output {
+    display: none;
+  }
+
+  #leftSide {
+    height: 100%;
+  }
+
+  #contact_form {
+    .input-submit {
+      width: 100%;
+      float: none;
+      clear: both;}}
+
+  #form-messages {
+    padding: 0 5px;
+    margin:  0;
+    margin-top: 20px;
+    width: 100%; }
+
+  #subscribe {
+    width: 280px;
+    padding: 25px;
+    margin-left: calc( 50% - 140px);
+      &.center {
+        margin-left: calc(50% - 140px ) !important;
+      }
+    }
+
+
+    #subscribe-form {
+      &.vertical-form  {
+        .input-email {
+          width: 45% !important;
+        }
+      }
+    }
+
+  #subscribe-form #subscribe-result {
+    padding: 20px 50px;
+    height: 90px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    right: -50px;
+
+  }
+
+    .btn-solid {
+      padding: em(10px) em(40px); }
+    .btn-light {
+      padding: em(10px) em(40px); }
+
+      .social_tab {
+        .social_icons {
+          li {
+            padding: 0 2.5px;
+          }
+        }
+      }
+
+      .h-content {
+        top: auto !important;
+      }
+
+        .social_tab {
+          &.fixed {
+            position: relative !important;
+            margin-top: 60px;
+            margin-bottom: 50px;
+          }
+        }
+
+        .copyright {
+          &.fixed {
+            position: relative !important;
+            bottom: 0;
+          }
+        }
+
+        .copyright {
+          &.absolute {
+            bottom: 0;
+            padding-bottom: 10px;
+          }
+        }
+
+
+        .time-dash {
+          position: relative;
+          left: 0;
+          padding: 20px 25px;
+          top: auto;
+          width: 100%;
+
+
+          .date {
+
+            h4 {
+              font-size: 1.5em;
+            }
+            span {
+              font-weight: 200;
+              font-size: .9em;
+            }
+          }
+          .time {
+            padding-left: 25px;
+            margin-top: .4em;
+            span {
+              font-size: 1.8em;
+
+            }
+          }
+        }
+
+
+}
+
+@include smallPhone {
+
+    body {
+        @include fontStack($raleway, 0.625em, 1.6);
+    }
+
+    #leftSide {
+      height: 100%;
+    }
+
+    .main-logo {max-width: 80px;}
+
+
+    .time-dash {
+      position: relative;
+      left: 0;
+      padding: 20px 25px;
+      top: auto;
+      width: 100%;
+      border-radius: 5px;
+
+      .date {
+
+        h4 {
+          font-size: 1.2em;
+        }
+        span {
+          font-size: .9em;
+        }
+      }
+      .time {
+        padding-left: 20px;
+
+        span {
+          color: rgba($white, .8);
+          font-weight: 300;
+          font-size: 1.4em;
+
+        }
+      }
+    }
+
+}

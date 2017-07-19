@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Getting Started | Deft Docs</title>
+
+    <meta name="description" content="Documentation and reference library for Medium Rare Deft. JavaScript, CSS, components, grid and more.">
+
+    <link href='assets/css/docs.css' rel='stylesheet' />
+    <script src="assets/js/modernizr.js"></script>
+  </head>
+  <body class="antialiased hide-extras">
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+
+
+<a class="exit-off-canvas" href="index.html#"></a>
+<section role="main" class="scroll-container">
+
+  <div class="row">
+    <div class="large-3 medium-4 columns">
+      <div class="hide-for-small">
+        <div class="sidebar">
+          <h5>Deft Documentation</h5>
+
+          <nav>
+            <ul class="side-nav">
+              <li class="heading">Contents</li>
+
+              <li><a href="#countdown" data-search="">Countdown Timer</a></li>
+              <li><a href="#iconpack" data-search="Styles">Icon Pack</a></li>
+              <li><a href="#googlemap" data-search="">Google Maps</a></li>
+              <li><a href="#mailchimp" data-search="">Mailchimp Subscribe Form</a></li>
+              <li><a href="#contactform" data-search="">Ajax Contact Form</a></li>
+              <li><a href="#angle" data-search="">Background Color settings for Angle Animation</a></li>
+			  <li><a href="#flexslider" data-search="">Flexslider</a></li>
+
+
+
+            </ul>
+          </nav>
+
+      </div>
+    </div>
+  </div>
+
+<div class="large-9 medium-8 columns">
+  <h1 id="">Getting Started</h1>
+  <h3 class="subheader">Hello and thankyou for purchasing Deft by Code Rare. This documentation will give you an understanding of how Deft is structured and guide you in performing common functions. If you require further assistance not covered in this documentation, please contact us via <a href="http://themeforest.net/user/coderare">Link</a></h3>
+  <h3 class="subheader">we would be very thankful if you could rate our item at this <a href="http://themeforest.net/downloads">link</a> with 5 stars and leave your feedback, this is very important for us, Thanks! </h3>
+  <h3 class="subheader"><strong>Essentials:</strong></h3>
+  <ul>
+  	<li>This template is based on Bootstrap v3.3.6 responsive framework</li>
+  	<li>Chrome for Win or Mac (use the inspector, right click -> inspect element to make your life easier)</li>
+  	<li>A decent text editor like Atom for Win or Text Wrangler for Mac</li>
+  	<li>When using Variant - Run in Chrome or Firefox for full features and best performance (Safari is unable to export files and IE is not supported at this time)</li>
+  </ul>
+
+  <hr>
+
+  <div class="row">
+  <a id="countdown"></a>
+	<div class="medium-12 columns">
+		<h3><strong>1. Countdown Timer</strong></h3>
+    <p>The countdown timer is controlled by a javascript plugin called '<a target="_blank" href="http://hilios.github.io/jQuery.countdown/">The Final Countdown</a>'. We have set it up, so that all you need to do is to pass a date into the data attribute <strong>'data-date'</strong> in the format <strong>YYYY/MM/DD</strong>.</p>
+    <img src="countdown.png" alt="" />
+    <hr>
+	</div>
+
+  <a id="iconpack"></a>
+	<div class="medium-12 columns">
+		<h3><strong>2. Using the Icon Pack</strong></h3>
+		<p>Multi-concept layout make use of two icon pack one is <a target="_blank" href="http://ionicons.com/">ionicons</a> pack and second is <a target="_blank" href="https://themify.me/themify-icons">Themify</a> Icons. Using Ionicons icon packs is a simple matter of knowing the correct class to use.</p>
+    <hr>
+  </div>
+
+
+
+
+  <a id="googlemap"></a>
+  	<div class="medium-12 columns">
+  		<h3><strong>3. Google Maps</strong></h3>
+  		<p>Find the coordonates of a place easily with this website : <a href="http://www.gps-coordinates.net/">http://www.gps-coordinates.net/</a> and then replace coordonates with your desired place coordonates. </p>
+      <img src="map.png" alt="" />
+      <br>
+      <br>
+      <p>
+        I recommand you to visit <a href="http://snazzymaps.com/">Snazzy Map</a> to customize your map.
+      </p>
+      <hr>
+    </div>
+
+<a id="mailchimp"></a>
+	<div class="medium-12 columns">
+		<h3><strong>4.Mailchimp Subscribe Form</strong></h3>
+		<p>Verifing mailchimp subscribe form is very easy in Deft, <br> <br>
+      1. Replace the form action url with your own from the MailChimp supplied embed code <br>
+      2. Within the action url, replace <strong>"subscribe/post"</strong> with <strong>"subscribe/post-json"</strong> <br>
+      3. Be sure the action url starts with <strong>http://</strong> If it doesn't, the form will hang when testing the html as a local file in your browser. <br>
+       .</p>
+    <img src="subscribe.png" alt="" />
+    <br><br>
+    <img src="chimp-url.png" alt="" />
+    <br>
+    <p>method originally posted by <a href="https://help.shopify.com/themes/customization/communication/get-a-mailchimp-form-action-url#get-the-form-action-url">shopify</a></p>
+
+    <hr>
+  </div>
+
+<a id="contactform"></a>
+	<div class="medium-12 columns">
+		<h3><strong>5. Ajax Contact Form</strong></h3>
+		<p>Open mailer.php file in php folder and replace <strong>$recipient</strong> email with your email address. so simple isn't it?</p>
+    <img src="contact.png" alt="" />
+    <hr>
+  </div>
+
+  <a id="angle"></a>
+	<div class="medium-12 columns">
+		<h3><strong>6. Background Color settings for Angle Animation in Restaurant page</strong></h3>
+		<p>To change those colors go to js folder and edit <strong>angle.js</strong> file with any text editor.
+		then go to line <strong>1604</strong> and <strong>1605</strong> you will find some code like this <br> <br>
+		   <strong>
+			ambient: '#09ffc5', <br>
+			diffuse: '#048A81',
+		   </strong>
+		</p>
+		<p>Just replace the hex values with your color hex values and remember ambient color is for background and diffuse is the little portion which move when you hover. and only use hex values.</p>
+    <hr>
+  </div>
+
+    <a id="flexslider"></a>
+	<div class="medium-12 columns">
+		<h3><strong>7. Add Flexslider to deft</strong></h3>
+    <p>Go to <a href="http://flexslider.woothemes.com/">flexslider</a> website for complete docs.</p>
+
+    <hr>
+  </div>
+
+<!-- <a id="particles"></a>
+	<div class="medium-12 columns">
+		<h3><strong>6. Particles Animations</strong></h3>
+		<p>A lightweight JavaScript library for creating particles. include the <strong>HTML</strong> inside <strong>#HOME DIV</strong> in order to add particle animations to home. And also dont forgot to add these two <strong>"script"</strong> tags if you're adding particles animation to other pages</p>
+    <img src="particles.png" alt="" />
+    <br><br>
+    <img src="particles2.png" alt="" />
+    <br>
+    <br>
+    <p>
+      I recommand you to visit <a href="http://vincentgarreau.com/particles.js/">particles.js</a> to generate a custom design.
+    </p>
+    <hr>
+  </div> -->
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</div>
+
+</body>
+</html>
