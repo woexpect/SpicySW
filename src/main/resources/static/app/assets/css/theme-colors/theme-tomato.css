@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ TOMATO THEME
+********************************/
+.theme-color {
+	color: tomato;
+}
+
+.menu-desktop .menu__link:hover {
+	color: tomato;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: tomato;
+}
+
+.menu-desktop .menu__link_active {
+	color: tomato;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: tomato;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: tomato;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: tomato;
+}
+
+.menu-mobile .menu__link:hover {
+	background: tomato;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: tomato;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: tomato;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: tomato;
+}
+
+.main-video__title:after {
+	background: tomato;
+}
+
+.pro-item__timeline {
+	background: tomato;
+}
+
+.main-5-slider-text__title_before:before {
+	background: tomato;
+}
+
+.main-5-slider-text__title_after:after {
+	background: tomato;
+}
+
+.features-1 .features-item__icon {
+	background: tomato;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid tomato;
+}
+
+.features-1 .features-item__link {
+	color: tomato;
+}
+
+.features-2 .features-item {
+	background: tomato;
+}
+
+.features-3 .features-item__icon {
+	color: tomato;
+}
+
+.portfolio-item__wrap:before {
+	background: tomato;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: tomato;
+}
+
+.portfolio-filter__item:hover {
+	color: tomato;
+}
+
+.portfolio-filter__item_active {
+	color: tomato !important;
+}
+
+.section-arrow:before {
+	color: tomato;
+}
+
+.s-get-it__bg:before {
+	background: tomato;
+}
+
+.s-get-it-2 {
+	background: tomato;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent tomato;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: tomato;
+}
+
+.process-subitem__ico:before {
+	color: tomato;
+}
+
+.s-blog-post:after {
+	background: tomato;
+}
+
+.team-item-social__icon:hover {
+	border-color: tomato;
+}
+
+.team-item-social__icon:hover:before {
+	color: tomato;
+}
+
+.team-item-details {
+	background: tomato;
+}
+
+.team-2-item-social__icon:hover {
+	color: tomato;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: tomato;
+}
+
+.skills-graph-circle__bar {
+	stroke: tomato;
+}
+
+.skills-graph-circle__bg {
+	stroke: tomato;
+}
+
+.counters__bg:before {
+	background: tomato;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: tomato;
+}
+
+.offer-1-features-item:before {
+	color: tomato;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: tomato;
+}
+
+.offer-2-subitem__ico:before {
+	color: tomato;
+}
+
+.offer-3-feature__ico {
+	background: tomato;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid tomato;
+}
+
+.offer-3-feature__name {
+	color: tomato;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: tomato;
+}
+
+.s-clients:before {
+	background: tomato;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: tomato;
+}
+
+.clients-item__name {
+	color: tomato;
+}
+
+.clients-dots__dot.active {
+	background: tomato;
+}
+
+.footer__title:after {
+	background: tomato;
+}
+
+.footer-contacts__link {
+	color: tomato;
+}
+
+.footer-social__item:hover:before {
+	color: tomato;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: tomato;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: tomato;
+}
+
+.footer-form__submit:hover {
+	background: tomato;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: tomato;
+}
+
+.footer-menu__link:after {
+	background: tomato;
+}
+
+.likeapro:hover {
+	color: tomato;
+}
+
+.faq-q:before {
+	color: tomato;
+}
+
+.faq-a:after, .faq-a:before {
+	background: tomato;
+}
+
+.four04-title {
+	color: tomato;
+}
+
+.four04-text {
+	color: tomato;
+}
+
+.contact-info__link:hover {
+	color: tomato !important;
+}
+
+.contact-form__submit {
+	background: tomato;
+}
+
+.section-2 .section__title:after {
+	background: tomato;
+}
+
+.google-maps__marker {
+	border: 4px solid tomato;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: tomato;
+}
+
+.btn-a_color_theme {
+	color: tomato;
+}
+
+.btn-a_color_theme {
+	border-color: tomato;
+}
+
+.btn-a_fill_theme {
+	border-color: tomato;
+}
+
+.btn-a_fill_theme:hover {
+	color: tomato;
+}
+
+.modal__info:hover:before {
+	color: tomato;
+}
+
+.project-modal__url {
+	color: tomato;
+}
+
+.preloader:before {
+	border-color: tomato tomato transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid tomato;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: tomato;
+}
+
+.blog-sidebar-block__title:after {
+	background: tomato;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: tomato;
+}
+
+.blog-sidebar-list__link:before {
+	color: tomato;
+}
+
+.blog-sidebar-list__link:hover {
+	color: tomato;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: tomato;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: tomato;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: tomato;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: tomato;
+}
+
+.post-date {
+	background: tomato;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: tomato;
+}
+
+.post-meta__link:hover {
+	color: tomato;
+}
+
+.blog-author:after {
+	background: tomato;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: tomato;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: tomato;
+}
+
+.blog-related-post-meta__title:hover {
+	color: tomato;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: tomato;
+}
+
+.comment-meta__author:hover {
+	color: tomato;
+}
+
+.comment-reply-link:hover {
+	color: tomato;
+}

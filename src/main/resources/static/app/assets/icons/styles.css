@@ -1,0 +1,526 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "lp-icons";
+  src:url("fonts/lp-icons.eot");
+  src:url("fonts/lp-icons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lp-icons.woff") format("woff"),
+    url("fonts/lp-icons.ttf") format("truetype"),
+    url("fonts/lp-icons.svg#lp-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "lp-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ico-"]:before,
+[class*=" ico-"]:before {
+  font-family: "lp-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-1:before {
+  content: "\61";
+}
+.ico-2:before {
+  content: "\62";
+}
+.ico-3:before {
+  content: "\63";
+}
+.ico-4:before {
+  content: "\64";
+}
+.ico-5:before {
+  content: "\65";
+}
+.ico-6:before {
+  content: "\66";
+}
+.ico-7:before {
+  content: "\67";
+}
+.ico-8:before {
+  content: "\68";
+}
+.ico-9:before {
+  content: "\69";
+}
+.ico-10:before {
+  content: "\6a";
+}
+.ico-11:before {
+  content: "\6b";
+}
+.ico-12:before {
+  content: "\6c";
+}
+.ico-13:before {
+  content: "\6d";
+}
+.ico-14:before {
+  content: "\6e";
+}
+.ico-15:before {
+  content: "\6f";
+}
+.ico-16:before {
+  content: "\70";
+}
+.ico-17:before {
+  content: "\71";
+}
+.ico-18:before {
+  content: "\72";
+}
+.ico-19:before {
+  content: "\73";
+}
+.ico-20:before {
+  content: "\74";
+}
+.ico-21:before {
+  content: "\75";
+}
+.ico-22:before {
+  content: "\76";
+}
+.ico-23:before {
+  content: "\77";
+}
+.ico-24:before {
+  content: "\78";
+}
+.ico-25:before {
+  content: "\79";
+}
+.ico-26:before {
+  content: "\7a";
+}
+.ico-27:before {
+  content: "\41";
+}
+.ico-28:before {
+  content: "\42";
+}
+.ico-29:before {
+  content: "\43";
+}
+.ico-30:before {
+  content: "\44";
+}
+.ico-31:before {
+  content: "\45";
+}
+.ico-32:before {
+  content: "\46";
+}
+.ico-33:before {
+  content: "\47";
+}
+.ico-34:before {
+  content: "\48";
+}
+.ico-35:before {
+  content: "\49";
+}
+.ico-36:before {
+  content: "\4a";
+}
+.ico-37:before {
+  content: "\4b";
+}
+.ico-38:before {
+  content: "\4c";
+}
+.ico-39:before {
+  content: "\4d";
+}
+.ico-40:before {
+  content: "\4e";
+}
+.ico-41:before {
+  content: "\4f";
+}
+.ico-42:before {
+  content: "\50";
+}
+.ico-43:before {
+  content: "\51";
+}
+.ico-44:before {
+  content: "\52";
+}
+.ico-45:before {
+  content: "\53";
+}
+.ico-46:before {
+  content: "\54";
+}
+.ico-47:before {
+  content: "\55";
+}
+.ico-48:before {
+  content: "\56";
+}
+.ico-49:before {
+  content: "\57";
+}
+.ico-50:before {
+  content: "\58";
+}
+.ico-51:before {
+  content: "\59";
+}
+.ico-52:before {
+  content: "\5a";
+}
+.ico-53:before {
+  content: "\30";
+}
+.ico-54:before {
+  content: "\31";
+}
+.ico-55:before {
+  content: "\32";
+}
+.ico-56:before {
+  content: "\33";
+}
+.ico-57:before {
+  content: "\34";
+}
+.ico-58:before {
+  content: "\35";
+}
+.ico-59:before {
+  content: "\36";
+}
+.ico-60:before {
+  content: "\37";
+}
+.ico-61:before {
+  content: "\38";
+}
+.ico-62:before {
+  content: "\39";
+}
+.ico-63:before {
+  content: "\21";
+}
+.ico-64:before {
+  content: "\22";
+}
+.ico-65:before {
+  content: "\23";
+}
+.ico-66:before {
+  content: "\24";
+}
+.ico-67:before {
+  content: "\25";
+}
+.ico-68:before {
+  content: "\26";
+}
+.ico-69:before {
+  content: "\27";
+}
+.ico-70:before {
+  content: "\28";
+}
+.ico-71:before {
+  content: "\29";
+}
+.ico-72:before {
+  content: "\2a";
+}
+.ico-73:before {
+  content: "\2b";
+}
+.ico-74:before {
+  content: "\2c";
+}
+.ico-75:before {
+  content: "\2d";
+}
+.ico-76:before {
+  content: "\2e";
+}
+.ico-77:before {
+  content: "\2f";
+}
+.ico-78:before {
+  content: "\3a";
+}
+.ico-79:before {
+  content: "\3b";
+}
+.ico-80:before {
+  content: "\3c";
+}
+.ico-81:before {
+  content: "\3d";
+}
+.ico-82:before {
+  content: "\3e";
+}
+.ico-83:before {
+  content: "\3f";
+}
+.ico-84:before {
+  content: "\40";
+}
+.ico-85:before {
+  content: "\5b";
+}
+.ico-86:before {
+  content: "\5d";
+}
+.ico-87:before {
+  content: "\5e";
+}
+.ico-88:before {
+  content: "\5f";
+}
+.ico-89:before {
+  content: "\60";
+}
+.ico-90:before {
+  content: "\7b";
+}
+.ico-91:before {
+  content: "\7c";
+}
+.ico-92:before {
+  content: "\7d";
+}
+.ico-93:before {
+  content: "\7e";
+}
+.ico-94:before {
+  content: "\5c";
+}
+.ico-95:before {
+  content: "\e000";
+}
+.ico-96:before {
+  content: "\e001";
+}
+.ico-97:before {
+  content: "\e002";
+}
+.ico-98:before {
+  content: "\e003";
+}
+.ico-99:before {
+  content: "\e004";
+}
+.ico-100:before {
+  content: "\e005";
+}
+.ico-101:before {
+  content: "\e006";
+}
+.ico-102:before {
+  content: "\e007";
+}
+.ico-103:before {
+  content: "\e008";
+}
+.ico-104:before {
+  content: "\e009";
+}
+.ico-105:before {
+  content: "\e00a";
+}
+.ico-106:before {
+  content: "\e00b";
+}
+.ico-107:before {
+  content: "\e00c";
+}
+.ico-108:before {
+  content: "\e00d";
+}
+.ico-109:before {
+  content: "\e00e";
+}
+.ico-110:before {
+  content: "\e00f";
+}
+.ico-111:before {
+  content: "\e010";
+}
+.ico-112:before {
+  content: "\e011";
+}
+.ico-113:before {
+  content: "\e012";
+}
+.ico-114:before {
+  content: "\e013";
+}
+.ico-115:before {
+  content: "\e014";
+}
+.ico-116:before {
+  content: "\e015";
+}
+.ico-117:before {
+  content: "\e016";
+}
+.ico-118:before {
+  content: "\e017";
+}
+.ico-119:before {
+  content: "\e018";
+}
+.ico-120:before {
+  content: "\e019";
+}
+.ico-121:before {
+  content: "\e01a";
+}
+.ico-122:before {
+  content: "\e01b";
+}
+.ico-123:before {
+  content: "\e01c";
+}
+.ico-124:before {
+  content: "\e01d";
+}
+.ico-125:before {
+  content: "\e01e";
+}
+.ico-126:before {
+  content: "\e01f";
+}
+.ico-127:before {
+  content: "\e020";
+}
+.ico-128:before {
+  content: "\e021";
+}
+.ico-129:before {
+  content: "\e022";
+}
+.ico-130:before {
+  content: "\e023";
+}
+.ico-131:before {
+  content: "\e024";
+}
+.ico-132:before {
+  content: "\e025";
+}
+.ico-133:before {
+  content: "\e026";
+}
+.ico-134:before {
+  content: "\e027";
+}
+.ico-135:before {
+  content: "\e028";
+}
+.ico-136:before {
+  content: "\e029";
+}
+.ico-137:before {
+  content: "\e02a";
+}
+.ico-138:before {
+  content: "\e02b";
+}
+.ico-139:before {
+  content: "\e02c";
+}
+.ico-140:before {
+  content: "\e02d";
+}
+.ico-141:before {
+  content: "\e02e";
+}
+.ico-142:before {
+  content: "\e02f";
+}
+.ico-143:before {
+  content: "\e030";
+}
+.ico-144:before {
+  content: "\e031";
+}
+.ico-145:before {
+  content: "\e032";
+}
+.ico-146:before {
+  content: "\e033";
+}
+.ico-147:before {
+  content: "\e034";
+}
+.ico-148:before {
+  content: "\e035";
+}
+.ico-149:before {
+  content: "\e037";
+}
+.ico-150:before {
+  content: "\e038";
+}
+.ico-151:before {
+  content: "\e03a";
+}
+.ico-152:before {
+  content: "\e03b";
+}
+.ico-153:before {
+  content: "\e036";
+}
+.ico-154:before {
+  content: "\e039";
+}
+.ico-155:before {
+  content: "\e03c";
+}
+.ico-156:before {
+  content: "\e03d";
+}
+.ico-157:before {
+  content: "\e040";
+}
+.ico-158:before {
+  content: "\e03e";
+}
+.ico-159:before {
+  content: "\e03f";
+}

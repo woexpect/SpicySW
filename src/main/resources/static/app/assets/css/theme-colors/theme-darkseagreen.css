@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ DARKSEAGREEN THEME
+********************************/
+.theme-color {
+	color: darkseagreen;
+}
+
+.menu-desktop .menu__link:hover {
+	color: darkseagreen;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: darkseagreen;
+}
+
+.menu-desktop .menu__link_active {
+	color: darkseagreen;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: darkseagreen;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: darkseagreen;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: darkseagreen;
+}
+
+.menu-mobile .menu__link:hover {
+	background: darkseagreen;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: darkseagreen;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: darkseagreen;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: darkseagreen;
+}
+
+.main-video__title:after {
+	background: darkseagreen;
+}
+
+.pro-item__timeline {
+	background: darkseagreen;
+}
+
+.main-5-slider-text__title_before:before {
+	background: darkseagreen;
+}
+
+.main-5-slider-text__title_after:after {
+	background: darkseagreen;
+}
+
+.features-1 .features-item__icon {
+	background: darkseagreen;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid darkseagreen;
+}
+
+.features-1 .features-item__link {
+	color: darkseagreen;
+}
+
+.features-2 .features-item {
+	background: darkseagreen;
+}
+
+.features-3 .features-item__icon {
+	color: darkseagreen;
+}
+
+.portfolio-item__wrap:before {
+	background: darkseagreen;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: darkseagreen;
+}
+
+.portfolio-filter__item:hover {
+	color: darkseagreen;
+}
+
+.portfolio-filter__item_active {
+	color: darkseagreen !important;
+}
+
+.section-arrow:before {
+	color: darkseagreen;
+}
+
+.s-get-it__bg:before {
+	background: darkseagreen;
+}
+
+.s-get-it-2 {
+	background: darkseagreen;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent darkseagreen;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: darkseagreen;
+}
+
+.process-subitem__ico:before {
+	color: darkseagreen;
+}
+
+.s-blog-post:after {
+	background: darkseagreen;
+}
+
+.team-item-social__icon:hover {
+	border-color: darkseagreen;
+}
+
+.team-item-social__icon:hover:before {
+	color: darkseagreen;
+}
+
+.team-item-details {
+	background: darkseagreen;
+}
+
+.team-2-item-social__icon:hover {
+	color: darkseagreen;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: darkseagreen;
+}
+
+.skills-graph-circle__bar {
+	stroke: darkseagreen;
+}
+
+.skills-graph-circle__bg {
+	stroke: darkseagreen;
+}
+
+.counters__bg:before {
+	background: darkseagreen;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: darkseagreen;
+}
+
+.offer-1-features-item:before {
+	color: darkseagreen;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: darkseagreen;
+}
+
+.offer-2-subitem__ico:before {
+	color: darkseagreen;
+}
+
+.offer-3-feature__ico {
+	background: darkseagreen;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid darkseagreen;
+}
+
+.offer-3-feature__name {
+	color: darkseagreen;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: darkseagreen;
+}
+
+.s-clients:before {
+	background: darkseagreen;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: darkseagreen;
+}
+
+.clients-item__name {
+	color: darkseagreen;
+}
+
+.clients-dots__dot.active {
+	background: darkseagreen;
+}
+
+.footer__title:after {
+	background: darkseagreen;
+}
+
+.footer-contacts__link {
+	color: darkseagreen;
+}
+
+.footer-social__item:hover:before {
+	color: darkseagreen;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: darkseagreen;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: darkseagreen;
+}
+
+.footer-form__submit:hover {
+	background: darkseagreen;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: darkseagreen;
+}
+
+.footer-menu__link:after {
+	background: darkseagreen;
+}
+
+.likeapro:hover {
+	color: darkseagreen;
+}
+
+.faq-q:before {
+	color: darkseagreen;
+}
+
+.faq-a:after, .faq-a:before {
+	background: darkseagreen;
+}
+
+.four04-title {
+	color: darkseagreen;
+}
+
+.four04-text {
+	color: darkseagreen;
+}
+
+.contact-info__link:hover {
+	color: darkseagreen !important;
+}
+
+.contact-form__submit {
+	background: darkseagreen;
+}
+
+.section-2 .section__title:after {
+	background: darkseagreen;
+}
+
+.google-maps__marker {
+	border: 4px solid darkseagreen;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: darkseagreen;
+}
+
+.btn-a_color_theme {
+	color: darkseagreen;
+}
+
+.btn-a_color_theme {
+	border-color: darkseagreen;
+}
+
+.btn-a_fill_theme {
+	border-color: darkseagreen;
+}
+
+.btn-a_fill_theme:hover {
+	color: darkseagreen;
+}
+
+.modal__info:hover:before {
+	color: darkseagreen;
+}
+
+.project-modal__url {
+	color: darkseagreen;
+}
+
+.preloader:before {
+	border-color: darkseagreen darkseagreen transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid darkseagreen;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: darkseagreen;
+}
+
+.blog-sidebar-block__title:after {
+	background: darkseagreen;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: darkseagreen;
+}
+
+.blog-sidebar-list__link:before {
+	color: darkseagreen;
+}
+
+.blog-sidebar-list__link:hover {
+	color: darkseagreen;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: darkseagreen;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: darkseagreen;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: darkseagreen;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: darkseagreen;
+}
+
+.post-date {
+	background: darkseagreen;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: darkseagreen;
+}
+
+.post-meta__link:hover {
+	color: darkseagreen;
+}
+
+.blog-author:after {
+	background: darkseagreen;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: darkseagreen;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: darkseagreen;
+}
+
+.blog-related-post-meta__title:hover {
+	color: darkseagreen;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: darkseagreen;
+}
+
+.comment-meta__author:hover {
+	color: darkseagreen;
+}
+
+.comment-reply-link:hover {
+	color: darkseagreen;
+}

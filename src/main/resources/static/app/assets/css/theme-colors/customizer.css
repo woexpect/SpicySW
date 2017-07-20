@@ -1,0 +1,232 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+.customizer {
+	position: fixed;
+	padding-bottom: 30px;
+	left: -340px;
+	top: 120px;
+	width: 340px;
+	text-align: center;
+	background: rgba(11, 18, 22, 0.86);
+	z-index: 4;
+	-webkit-transition: 0.5s left;
+	transition: 0.5s left;
+}
+
+.customizer-open {
+	left: 0;
+}
+
+.customizer-open .customizer__button:before {
+	-webkit-animation: none;
+	animation: none;
+}
+
+.customizer-open .customizer-alert {
+	opacity: 0 !important;
+}
+
+.customizer__title {
+	padding-top: 30px;
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.customizer__button {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 50px;
+	height: 50px;
+	background: rgba(11, 18, 22, 0.86);
+	cursor: pointer;
+}
+
+.customizer__button:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	color: #9AA8A8;
+	-webkit-animation: 3s rotate infinite linear normal;
+	animation: 3s rotate infinite linear normal;
+}
+
+.customizer-alert {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: calc(100% + 80px);
+	width: 100%;
+	padding: 20px;
+	border-radius: 5px;
+	font-weight: 300;
+	background: rgba(11, 18, 22, 0.86);
+	color: #fff;
+	-webkit-transition: 0.4s opacity;
+	transition: 0.4s opacity;
+}
+
+.customizer-alert:before {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 100%;
+	border: 8px solid transparent;
+	border-right: 8px solid rgba(11, 18, 22, 0.86);
+}
+
+.customizer-alert__message {
+	font-size: 18px;
+	color: #fff;
+}
+
+.customizer-alert__btn {
+	display: inline-block;
+	padding: 8px 30px;
+	margin: 20px auto 0;
+	background: #55C594;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	-webkit-transition: 0.35s opacity;
+	transition: 0.35s opacity;
+}
+
+.customizer-alert__btn:hover {
+	opacity: .8;
+}
+
+.customizer-colors {
+	margin: 20px 0 0;
+}
+
+.customizer-colors__item {
+	width: 50px;
+	height: 50px;
+	border-right: 1px solid rgba(11, 18, 22, 0.86);
+	border-bottom: 1px solid rgba(11, 18, 22, 0.86);
+	cursor: pointer;
+}
+
+.customizer-colors__item:hover {
+	opacity: .8;
+}
+
+.customizer-page {
+	margin: auto;
+	text-align: left;
+}
+
+.customizer-page__item, .customizer-menu__item {
+	padding: 0;
+	margin: 20px 8px 0;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #9AA8A8;
+	border: 1px solid #9AA8A8;
+	cursor: pointer;
+}
+
+.customizer-page__item:hover, .customizer-menu__item:hover {
+	opacity: .8;
+}
+
+.customizer-page__link {
+	display: block;
+	color: #9AA8A8;
+}
+
+.customizer-menu {
+	margin: 0;
+}
+
+.customizer-default {
+	margin-top: 30px;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 300;
+	color: tomato;
+	border: 1px solid tomato;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.customizer-default:hover {
+	opacity: .8;
+}
+
+.p-asidemenupage .customizer-alert {
+	background: rgba(0, 0, 0, 0.86);
+}
+
+.p-asidemenupage .customizer-alert:before {
+	border-right-color: rgba(0, 0, 0, 0.86);
+}
+
+[data-custom-color="#a8a8a8"] {
+	background: #a8a8a8;
+}
+
+[data-custom-color="gold"] {
+	background: gold;
+}
+
+[data-custom-color="darkseagreen"] {
+	background: darkseagreen;
+}
+
+[data-custom-color="#03d9a1"] {
+	background: #03d9a1;
+}
+
+[data-custom-color="coral"] {
+	background: coral;
+}
+
+[data-custom-color="tomato"] {
+	background: tomato;
+}
+
+[data-custom-color="darkkhaki"] {
+	background: darkkhaki;
+}
+
+[data-custom-color="deepskyblue"] {
+	background: deepskyblue;
+}
+
+[data-custom-color="cornflowerblue"] {
+	background: cornflowerblue;
+}
+
+[data-custom-color="hotpink"] {
+	background: hotpink;
+}
+
+[data-custom-color="crimson"] {
+	background: crimson;
+}
+
+[data-custom-color="#8b63b1"] {
+	background: #8b63b1;
+}

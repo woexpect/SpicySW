@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ HOTPINK THEME
+********************************/
+.theme-color {
+	color: hotpink;
+}
+
+.menu-desktop .menu__link:hover {
+	color: hotpink;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: hotpink;
+}
+
+.menu-desktop .menu__link_active {
+	color: hotpink;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: hotpink;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: hotpink;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: hotpink;
+}
+
+.menu-mobile .menu__link:hover {
+	background: hotpink;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: hotpink;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: hotpink;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: hotpink;
+}
+
+.main-video__title:after {
+	background: hotpink;
+}
+
+.pro-item__timeline {
+	background: hotpink;
+}
+
+.main-5-slider-text__title_before:before {
+	background: hotpink;
+}
+
+.main-5-slider-text__title_after:after {
+	background: hotpink;
+}
+
+.features-1 .features-item__icon {
+	background: hotpink;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid hotpink;
+}
+
+.features-1 .features-item__link {
+	color: hotpink;
+}
+
+.features-2 .features-item {
+	background: hotpink;
+}
+
+.features-3 .features-item__icon {
+	color: hotpink;
+}
+
+.portfolio-item__wrap:before {
+	background: hotpink;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: hotpink;
+}
+
+.portfolio-filter__item:hover {
+	color: hotpink;
+}
+
+.portfolio-filter__item_active {
+	color: hotpink !important;
+}
+
+.section-arrow:before {
+	color: hotpink;
+}
+
+.s-get-it__bg:before {
+	background: hotpink;
+}
+
+.s-get-it-2 {
+	background: hotpink;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent hotpink;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: hotpink;
+}
+
+.process-subitem__ico:before {
+	color: hotpink;
+}
+
+.s-blog-post:after {
+	background: hotpink;
+}
+
+.team-item-social__icon:hover {
+	border-color: hotpink;
+}
+
+.team-item-social__icon:hover:before {
+	color: hotpink;
+}
+
+.team-item-details {
+	background: hotpink;
+}
+
+.team-2-item-social__icon:hover {
+	color: hotpink;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: hotpink;
+}
+
+.skills-graph-circle__bar {
+	stroke: hotpink;
+}
+
+.skills-graph-circle__bg {
+	stroke: hotpink;
+}
+
+.counters__bg:before {
+	background: hotpink;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: hotpink;
+}
+
+.offer-1-features-item:before {
+	color: hotpink;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: hotpink;
+}
+
+.offer-2-subitem__ico:before {
+	color: hotpink;
+}
+
+.offer-3-feature__ico {
+	background: hotpink;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid hotpink;
+}
+
+.offer-3-feature__name {
+	color: hotpink;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: hotpink;
+}
+
+.s-clients:before {
+	background: hotpink;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: hotpink;
+}
+
+.clients-item__name {
+	color: hotpink;
+}
+
+.clients-dots__dot.active {
+	background: hotpink;
+}
+
+.footer__title:after {
+	background: hotpink;
+}
+
+.footer-contacts__link {
+	color: hotpink;
+}
+
+.footer-social__item:hover:before {
+	color: hotpink;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: hotpink;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: hotpink;
+}
+
+.footer-form__submit:hover {
+	background: hotpink;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: hotpink;
+}
+
+.footer-menu__link:after {
+	background: hotpink;
+}
+
+.likeapro:hover {
+	color: hotpink;
+}
+
+.faq-q:before {
+	color: hotpink;
+}
+
+.faq-a:after, .faq-a:before {
+	background: hotpink;
+}
+
+.four04-title {
+	color: hotpink;
+}
+
+.four04-text {
+	color: hotpink;
+}
+
+.contact-info__link:hover {
+	color: hotpink !important;
+}
+
+.contact-form__submit {
+	background: hotpink;
+}
+
+.section-2 .section__title:after {
+	background: hotpink;
+}
+
+.google-maps__marker {
+	border: 4px solid hotpink;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: hotpink;
+}
+
+.btn-a_color_theme {
+	color: hotpink;
+}
+
+.btn-a_color_theme {
+	border-color: hotpink;
+}
+
+.btn-a_fill_theme {
+	border-color: hotpink;
+}
+
+.btn-a_fill_theme:hover {
+	color: hotpink;
+}
+
+.modal__info:hover:before {
+	color: hotpink;
+}
+
+.project-modal__url {
+	color: hotpink;
+}
+
+.preloader:before {
+	border-color: hotpink hotpink transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid hotpink;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: hotpink;
+}
+
+.blog-sidebar-block__title:after {
+	background: hotpink;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: hotpink;
+}
+
+.blog-sidebar-list__link:before {
+	color: hotpink;
+}
+
+.blog-sidebar-list__link:hover {
+	color: hotpink;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: hotpink;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: hotpink;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: hotpink;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: hotpink;
+}
+
+.post-date {
+	background: hotpink;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: hotpink;
+}
+
+.post-meta__link:hover {
+	color: hotpink;
+}
+
+.blog-author:after {
+	background: hotpink;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: hotpink;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: hotpink;
+}
+
+.blog-related-post-meta__title:hover {
+	color: hotpink;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: hotpink;
+}
+
+.comment-meta__author:hover {
+	color: hotpink;
+}
+
+.comment-reply-link:hover {
+	color: hotpink;
+}

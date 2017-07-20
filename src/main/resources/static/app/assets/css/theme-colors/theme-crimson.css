@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ CRIMSON THEME
+********************************/
+.theme-color {
+	color: crimson;
+}
+
+.menu-desktop .menu__link:hover {
+	color: crimson;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: crimson;
+}
+
+.menu-desktop .menu__link_active {
+	color: crimson;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: crimson;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: crimson;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: crimson;
+}
+
+.menu-mobile .menu__link:hover {
+	background: crimson;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: crimson;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: crimson;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: crimson;
+}
+
+.main-video__title:after {
+	background: crimson;
+}
+
+.pro-item__timeline {
+	background: crimson;
+}
+
+.main-5-slider-text__title_before:before {
+	background: crimson;
+}
+
+.main-5-slider-text__title_after:after {
+	background: crimson;
+}
+
+.features-1 .features-item__icon {
+	background: crimson;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid crimson;
+}
+
+.features-1 .features-item__link {
+	color: crimson;
+}
+
+.features-2 .features-item {
+	background: crimson;
+}
+
+.features-3 .features-item__icon {
+	color: crimson;
+}
+
+.portfolio-item__wrap:before {
+	background: crimson;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: crimson;
+}
+
+.portfolio-filter__item:hover {
+	color: crimson;
+}
+
+.portfolio-filter__item_active {
+	color: crimson !important;
+}
+
+.section-arrow:before {
+	color: crimson;
+}
+
+.s-get-it__bg:before {
+	background: crimson;
+}
+
+.s-get-it-2 {
+	background: crimson;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent crimson;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: crimson;
+}
+
+.process-subitem__ico:before {
+	color: crimson;
+}
+
+.s-blog-post:after {
+	background: crimson;
+}
+
+.team-item-social__icon:hover {
+	border-color: crimson;
+}
+
+.team-item-social__icon:hover:before {
+	color: crimson;
+}
+
+.team-item-details {
+	background: crimson;
+}
+
+.team-2-item-social__icon:hover {
+	color: crimson;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: crimson;
+}
+
+.skills-graph-circle__bar {
+	stroke: crimson;
+}
+
+.skills-graph-circle__bg {
+	stroke: crimson;
+}
+
+.counters__bg:before {
+	background: crimson;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: crimson;
+}
+
+.offer-1-features-item:before {
+	color: crimson;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: crimson;
+}
+
+.offer-2-subitem__ico:before {
+	color: crimson;
+}
+
+.offer-3-feature__ico {
+	background: crimson;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid crimson;
+}
+
+.offer-3-feature__name {
+	color: crimson;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: crimson;
+}
+
+.s-clients:before {
+	background: crimson;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: crimson;
+}
+
+.clients-item__name {
+	color: crimson;
+}
+
+.clients-dots__dot.active {
+	background: crimson;
+}
+
+.footer__title:after {
+	background: crimson;
+}
+
+.footer-contacts__link {
+	color: crimson;
+}
+
+.footer-social__item:hover:before {
+	color: crimson;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: crimson;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: crimson;
+}
+
+.footer-form__submit:hover {
+	background: crimson;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: crimson;
+}
+
+.footer-menu__link:after {
+	background: crimson;
+}
+
+.likeapro:hover {
+	color: crimson;
+}
+
+.faq-q:before {
+	color: crimson;
+}
+
+.faq-a:after, .faq-a:before {
+	background: crimson;
+}
+
+.four04-title {
+	color: crimson;
+}
+
+.four04-text {
+	color: crimson;
+}
+
+.contact-info__link:hover {
+	color: crimson !important;
+}
+
+.contact-form__submit {
+	background: crimson;
+}
+
+.section-2 .section__title:after {
+	background: crimson;
+}
+
+.google-maps__marker {
+	border: 4px solid crimson;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: crimson;
+}
+
+.btn-a_color_theme {
+	color: crimson;
+}
+
+.btn-a_color_theme {
+	border-color: crimson;
+}
+
+.btn-a_fill_theme {
+	border-color: crimson;
+}
+
+.btn-a_fill_theme:hover {
+	color: crimson;
+}
+
+.modal__info:hover:before {
+	color: crimson;
+}
+
+.project-modal__url {
+	color: crimson;
+}
+
+.preloader:before {
+	border-color: crimson crimson transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid crimson;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: crimson;
+}
+
+.blog-sidebar-block__title:after {
+	background: crimson;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: crimson;
+}
+
+.blog-sidebar-list__link:before {
+	color: crimson;
+}
+
+.blog-sidebar-list__link:hover {
+	color: crimson;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: crimson;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: crimson;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: crimson;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: crimson;
+}
+
+.post-date {
+	background: crimson;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: crimson;
+}
+
+.post-meta__link:hover {
+	color: crimson;
+}
+
+.blog-author:after {
+	background: crimson;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: crimson;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: crimson;
+}
+
+.blog-related-post-meta__title:hover {
+	color: crimson;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: crimson;
+}
+
+.comment-meta__author:hover {
+	color: crimson;
+}
+
+.comment-reply-link:hover {
+	color: crimson;
+}

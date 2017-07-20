@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ DARKKHAKI THEME
+********************************/
+.theme-color {
+	color: darkkhaki;
+}
+
+.menu-desktop .menu__link:hover {
+	color: darkkhaki;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: darkkhaki;
+}
+
+.menu-desktop .menu__link_active {
+	color: darkkhaki;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: darkkhaki;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: darkkhaki;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: darkkhaki;
+}
+
+.menu-mobile .menu__link:hover {
+	background: darkkhaki;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: darkkhaki;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: darkkhaki;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: darkkhaki;
+}
+
+.main-video__title:after {
+	background: darkkhaki;
+}
+
+.pro-item__timeline {
+	background: darkkhaki;
+}
+
+.main-5-slider-text__title_before:before {
+	background: darkkhaki;
+}
+
+.main-5-slider-text__title_after:after {
+	background: darkkhaki;
+}
+
+.features-1 .features-item__icon {
+	background: darkkhaki;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid darkkhaki;
+}
+
+.features-1 .features-item__link {
+	color: darkkhaki;
+}
+
+.features-2 .features-item {
+	background: darkkhaki;
+}
+
+.features-3 .features-item__icon {
+	color: darkkhaki;
+}
+
+.portfolio-item__wrap:before {
+	background: darkkhaki;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: darkkhaki;
+}
+
+.portfolio-filter__item:hover {
+	color: darkkhaki;
+}
+
+.portfolio-filter__item_active {
+	color: darkkhaki !important;
+}
+
+.section-arrow:before {
+	color: darkkhaki;
+}
+
+.s-get-it__bg:before {
+	background: darkkhaki;
+}
+
+.s-get-it-2 {
+	background: darkkhaki;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent darkkhaki;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: darkkhaki;
+}
+
+.process-subitem__ico:before {
+	color: darkkhaki;
+}
+
+.s-blog-post:after {
+	background: darkkhaki;
+}
+
+.team-item-social__icon:hover {
+	border-color: darkkhaki;
+}
+
+.team-item-social__icon:hover:before {
+	color: darkkhaki;
+}
+
+.team-item-details {
+	background: darkkhaki;
+}
+
+.team-2-item-social__icon:hover {
+	color: darkkhaki;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: darkkhaki;
+}
+
+.skills-graph-circle__bar {
+	stroke: darkkhaki;
+}
+
+.skills-graph-circle__bg {
+	stroke: darkkhaki;
+}
+
+.counters__bg:before {
+	background: darkkhaki;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: darkkhaki;
+}
+
+.offer-1-features-item:before {
+	color: darkkhaki;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: darkkhaki;
+}
+
+.offer-2-subitem__ico:before {
+	color: darkkhaki;
+}
+
+.offer-3-feature__ico {
+	background: darkkhaki;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid darkkhaki;
+}
+
+.offer-3-feature__name {
+	color: darkkhaki;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: darkkhaki;
+}
+
+.s-clients:before {
+	background: darkkhaki;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: darkkhaki;
+}
+
+.clients-item__name {
+	color: darkkhaki;
+}
+
+.clients-dots__dot.active {
+	background: darkkhaki;
+}
+
+.footer__title:after {
+	background: darkkhaki;
+}
+
+.footer-contacts__link {
+	color: darkkhaki;
+}
+
+.footer-social__item:hover:before {
+	color: darkkhaki;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: darkkhaki;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: darkkhaki;
+}
+
+.footer-form__submit:hover {
+	background: darkkhaki;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: darkkhaki;
+}
+
+.footer-menu__link:after {
+	background: darkkhaki;
+}
+
+.likeapro:hover {
+	color: darkkhaki;
+}
+
+.faq-q:before {
+	color: darkkhaki;
+}
+
+.faq-a:after, .faq-a:before {
+	background: darkkhaki;
+}
+
+.four04-title {
+	color: darkkhaki;
+}
+
+.four04-text {
+	color: darkkhaki;
+}
+
+.contact-info__link:hover {
+	color: darkkhaki !important;
+}
+
+.contact-form__submit {
+	background: darkkhaki;
+}
+
+.section-2 .section__title:after {
+	background: darkkhaki;
+}
+
+.google-maps__marker {
+	border: 4px solid darkkhaki;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: darkkhaki;
+}
+
+.btn-a_color_theme {
+	color: darkkhaki;
+}
+
+.btn-a_color_theme {
+	border-color: darkkhaki;
+}
+
+.btn-a_fill_theme {
+	border-color: darkkhaki;
+}
+
+.btn-a_fill_theme:hover {
+	color: darkkhaki;
+}
+
+.modal__info:hover:before {
+	color: darkkhaki;
+}
+
+.project-modal__url {
+	color: darkkhaki;
+}
+
+.preloader:before {
+	border-color: darkkhaki darkkhaki transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid darkkhaki;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: darkkhaki;
+}
+
+.blog-sidebar-block__title:after {
+	background: darkkhaki;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: darkkhaki;
+}
+
+.blog-sidebar-list__link:before {
+	color: darkkhaki;
+}
+
+.blog-sidebar-list__link:hover {
+	color: darkkhaki;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: darkkhaki;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: darkkhaki;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: darkkhaki;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: darkkhaki;
+}
+
+.post-date {
+	background: darkkhaki;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: darkkhaki;
+}
+
+.post-meta__link:hover {
+	color: darkkhaki;
+}
+
+.blog-author:after {
+	background: darkkhaki;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: darkkhaki;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: darkkhaki;
+}
+
+.blog-related-post-meta__title:hover {
+	color: darkkhaki;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: darkkhaki;
+}
+
+.comment-meta__author:hover {
+	color: darkkhaki;
+}
+
+.comment-reply-link:hover {
+	color: darkkhaki;
+}

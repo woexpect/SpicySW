@@ -51,7 +51,9 @@ $( document ).ready(function() {
 /* ------------------------------------- */
 /* Page Loading    ................... */
 /* ------------------------------------- */
-  $(".animsition").animsition({    inClass: 'fade-in',
+
+  $(".animsition").animsition({
+    inClass: 'fade-in',
     outClass: 'fade-out',
     inDuration: 300,
     outDuration: 800,
@@ -174,7 +176,9 @@ $(function() {
     }
   });
 });
-/* ------------------------------------- */
+
+
+/* ------------------------------------- */
 /* PhotoSwipe   ................... */
 /* ------------------------------------- */
   var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -407,7 +411,17 @@ initPhotoSwipeFromDOM('.my-gallery');
 
 
   $('#timerTwo')
-  .countdown($('#timerTwo').attr("data-date")).on('update.countdown', function(event) {     var $this = $(this).html(event.strftime(''       + '<div class="clock-box"><span class="simple">%-D</span>days  </div>'       + '<div class="clock-box"><span class="simple"> %H</span>h  </div>'       + '<div class="clock-box"><span class="simple"> %M</span>m  </div>'       ));  });/* ------------------------------------- *//* Subscribe Form   ................... */
+  .countdown($('#timerTwo').attr("data-date")).on('update.countdown', function(event) {
+     var $this = $(this).html(event.strftime(''
+       + '<div class="clock-box"><span class="simple">%-D</span>days  </div>'
+       + '<div class="clock-box"><span class="simple"> %H</span>h  </div>'
+       + '<div class="clock-box"><span class="simple"> %M</span>m  </div>'
+       ));
+  });
+
+
+/* ------------------------------------- */
+/* Subscribe Form   ................... */
 /* ------------------------------------- */
 
 $(function() {
@@ -528,66 +542,4 @@ $(function() {
       });
   }
 });
-
-/* ------------------------------------- */
-/* Contact Form    ................... */
-/* ------------------------------------- */
-
-  $(function() {
-  	// Get the form.
-  	var form = $('#contact_form');
-
-  	// Get the messages div.
-  	var formMessages = $('#form-messages');
-    var formMessageSuccess = $('#form-messages .success');
-    var formMessageError = $('#form-messages .error');
-
-  	// Set up an event listener for the contact form.
-  	$(form).submit(function(e) {
-  		// Stop the browser from submitting the form.
-  		e.preventDefault();
-
-  		// Serialize the form data.
-  		var formData = $(form).serialize();
-
-  		// Submit the form using AJAX.
-  		$.ajax({
-  			type: 'POST',
-  			url: $(form).attr('action'),
-  			data: formData
-  		})
-  		.done(function(response) {
-  			// Make sure that the formMessages span or div has the 'success' class.
-        $('.success').fadeIn();
-        setTimeout(function(){
-          $('.success').fadeToggle(200,0);
-        },2500);
-        $('.error').fadeOut();
-  			// Set the message text.
-  			$(formMessageSuccess).text(response);
-
-  			// Clear the form.
-  			$('.input-name').val('');
-  			$('.input-email').val('');
-  			$('.input-message').val('');
-  		})
-  		.fail(function(data) {
-  			// Make sure that the formMessages span or div has the 'error' class.
-        $('.error').fadeIn();
-        setTimeout(function(){
-          $('.error').fadeToggle(200,0);
-        },2500);
-        $('.success').fadeOut();
-
-  			// Set the message text.
-  			if (data.responseText !== '') {
-  				$(formMessageError).text(data.responseText);
-  			} else {
-  				$(formMessageError).text('Oops! An error occured.');
-  			}
-  		});
-  	});
-  });
-
-
 });

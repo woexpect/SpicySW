@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ GOLD THEME
+********************************/
+.theme-color {
+	color: gold;
+}
+
+.menu-desktop .menu__link:hover {
+	color: gold;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: gold;
+}
+
+.menu-desktop .menu__link_active {
+	color: gold;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: gold;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: gold;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: gold;
+}
+
+.menu-mobile .menu__link:hover {
+	background: gold;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: gold;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: gold;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: gold;
+}
+
+.main-video__title:after {
+	background: gold;
+}
+
+.pro-item__timeline {
+	background: gold;
+}
+
+.main-5-slider-text__title_before:before {
+	background: gold;
+}
+
+.main-5-slider-text__title_after:after {
+	background: gold;
+}
+
+.features-1 .features-item__icon {
+	background: gold;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid gold;
+}
+
+.features-1 .features-item__link {
+	color: gold;
+}
+
+.features-2 .features-item {
+	background: gold;
+}
+
+.features-3 .features-item__icon {
+	color: gold;
+}
+
+.portfolio-item__wrap:before {
+	background: gold;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: gold;
+}
+
+.portfolio-filter__item:hover {
+	color: gold;
+}
+
+.portfolio-filter__item_active {
+	color: gold !important;
+}
+
+.section-arrow:before {
+	color: gold;
+}
+
+.s-get-it__bg:before {
+	background: gold;
+}
+
+.s-get-it-2 {
+	background: gold;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent gold;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: gold;
+}
+
+.process-subitem__ico:before {
+	color: gold;
+}
+
+.s-blog-post:after {
+	background: gold;
+}
+
+.team-item-social__icon:hover {
+	border-color: gold;
+}
+
+.team-item-social__icon:hover:before {
+	color: gold;
+}
+
+.team-item-details {
+	background: gold;
+}
+
+.team-2-item-social__icon:hover {
+	color: gold;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: gold;
+}
+
+.skills-graph-circle__bar {
+	stroke: gold;
+}
+
+.skills-graph-circle__bg {
+	stroke: gold;
+}
+
+.counters__bg:before {
+	background: gold;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: gold;
+}
+
+.offer-1-features-item:before {
+	color: gold;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: gold;
+}
+
+.offer-2-subitem__ico:before {
+	color: gold;
+}
+
+.offer-3-feature__ico {
+	background: gold;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid gold;
+}
+
+.offer-3-feature__name {
+	color: gold;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: gold;
+}
+
+.s-clients:before {
+	background: gold;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: gold;
+}
+
+.clients-item__name {
+	color: gold;
+}
+
+.clients-dots__dot.active {
+	background: gold;
+}
+
+.footer__title:after {
+	background: gold;
+}
+
+.footer-contacts__link {
+	color: gold;
+}
+
+.footer-social__item:hover:before {
+	color: gold;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: gold;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: gold;
+}
+
+.footer-form__submit:hover {
+	background: gold;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: gold;
+}
+
+.footer-menu__link:after {
+	background: gold;
+}
+
+.likeapro:hover {
+	color: gold;
+}
+
+.faq-q:before {
+	color: gold;
+}
+
+.faq-a:after, .faq-a:before {
+	background: gold;
+}
+
+.four04-title {
+	color: gold;
+}
+
+.four04-text {
+	color: gold;
+}
+
+.contact-info__link:hover {
+	color: gold !important;
+}
+
+.contact-form__submit {
+	background: gold;
+}
+
+.section-2 .section__title:after {
+	background: gold;
+}
+
+.google-maps__marker {
+	border: 4px solid gold;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: gold;
+}
+
+.btn-a_color_theme {
+	color: gold;
+}
+
+.btn-a_color_theme {
+	border-color: gold;
+}
+
+.btn-a_fill_theme {
+	border-color: gold;
+}
+
+.btn-a_fill_theme:hover {
+	color: gold;
+}
+
+.modal__info:hover:before {
+	color: gold;
+}
+
+.project-modal__url {
+	color: gold;
+}
+
+.preloader:before {
+	border-color: gold gold transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid gold;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: gold;
+}
+
+.blog-sidebar-block__title:after {
+	background: gold;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: gold;
+}
+
+.blog-sidebar-list__link:before {
+	color: gold;
+}
+
+.blog-sidebar-list__link:hover {
+	color: gold;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: gold;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: gold;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: gold;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: gold;
+}
+
+.post-date {
+	background: gold;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: gold;
+}
+
+.post-meta__link:hover {
+	color: gold;
+}
+
+.blog-author:after {
+	background: gold;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: gold;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: gold;
+}
+
+.blog-related-post-meta__title:hover {
+	color: gold;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: gold;
+}
+
+.comment-meta__author:hover {
+	color: gold;
+}
+
+.comment-reply-link:hover {
+	color: gold;
+}

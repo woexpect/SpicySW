@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ DEEPSKYBLUE THEME
+********************************/
+.theme-color {
+	color: deepskyblue;
+}
+
+.menu-desktop .menu__link:hover {
+	color: deepskyblue;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: deepskyblue;
+}
+
+.menu-desktop .menu__link_active {
+	color: deepskyblue;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: deepskyblue;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: deepskyblue;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: deepskyblue;
+}
+
+.menu-mobile .menu__link:hover {
+	background: deepskyblue;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: deepskyblue;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: deepskyblue;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: deepskyblue;
+}
+
+.main-video__title:after {
+	background: deepskyblue;
+}
+
+.pro-item__timeline {
+	background: deepskyblue;
+}
+
+.main-5-slider-text__title_before:before {
+	background: deepskyblue;
+}
+
+.main-5-slider-text__title_after:after {
+	background: deepskyblue;
+}
+
+.features-1 .features-item__icon {
+	background: deepskyblue;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid deepskyblue;
+}
+
+.features-1 .features-item__link {
+	color: deepskyblue;
+}
+
+.features-2 .features-item {
+	background: deepskyblue;
+}
+
+.features-3 .features-item__icon {
+	color: deepskyblue;
+}
+
+.portfolio-item__wrap:before {
+	background: deepskyblue;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: deepskyblue;
+}
+
+.portfolio-filter__item:hover {
+	color: deepskyblue;
+}
+
+.portfolio-filter__item_active {
+	color: deepskyblue !important;
+}
+
+.section-arrow:before {
+	color: deepskyblue;
+}
+
+.s-get-it__bg:before {
+	background: deepskyblue;
+}
+
+.s-get-it-2 {
+	background: deepskyblue;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent deepskyblue;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: deepskyblue;
+}
+
+.process-subitem__ico:before {
+	color: deepskyblue;
+}
+
+.s-blog-post:after {
+	background: deepskyblue;
+}
+
+.team-item-social__icon:hover {
+	border-color: deepskyblue;
+}
+
+.team-item-social__icon:hover:before {
+	color: deepskyblue;
+}
+
+.team-item-details {
+	background: deepskyblue;
+}
+
+.team-2-item-social__icon:hover {
+	color: deepskyblue;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: deepskyblue;
+}
+
+.skills-graph-circle__bar {
+	stroke: deepskyblue;
+}
+
+.skills-graph-circle__bg {
+	stroke: deepskyblue;
+}
+
+.counters__bg:before {
+	background: deepskyblue;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: deepskyblue;
+}
+
+.offer-1-features-item:before {
+	color: deepskyblue;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: deepskyblue;
+}
+
+.offer-2-subitem__ico:before {
+	color: deepskyblue;
+}
+
+.offer-3-feature__ico {
+	background: deepskyblue;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid deepskyblue;
+}
+
+.offer-3-feature__name {
+	color: deepskyblue;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: deepskyblue;
+}
+
+.s-clients:before {
+	background: deepskyblue;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: deepskyblue;
+}
+
+.clients-item__name {
+	color: deepskyblue;
+}
+
+.clients-dots__dot.active {
+	background: deepskyblue;
+}
+
+.footer__title:after {
+	background: deepskyblue;
+}
+
+.footer-contacts__link {
+	color: deepskyblue;
+}
+
+.footer-social__item:hover:before {
+	color: deepskyblue;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: deepskyblue;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: deepskyblue;
+}
+
+.footer-form__submit:hover {
+	background: deepskyblue;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: deepskyblue;
+}
+
+.footer-menu__link:after {
+	background: deepskyblue;
+}
+
+.likeapro:hover {
+	color: deepskyblue;
+}
+
+.faq-q:before {
+	color: deepskyblue;
+}
+
+.faq-a:after, .faq-a:before {
+	background: deepskyblue;
+}
+
+.four04-title {
+	color: deepskyblue;
+}
+
+.four04-text {
+	color: deepskyblue;
+}
+
+.contact-info__link:hover {
+	color: deepskyblue !important;
+}
+
+.contact-form__submit {
+	background: deepskyblue;
+}
+
+.section-2 .section__title:after {
+	background: deepskyblue;
+}
+
+.google-maps__marker {
+	border: 4px solid deepskyblue;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: deepskyblue;
+}
+
+.btn-a_color_theme {
+	color: deepskyblue;
+}
+
+.btn-a_color_theme {
+	border-color: deepskyblue;
+}
+
+.btn-a_fill_theme {
+	border-color: deepskyblue;
+}
+
+.btn-a_fill_theme:hover {
+	color: deepskyblue;
+}
+
+.modal__info:hover:before {
+	color: deepskyblue;
+}
+
+.project-modal__url {
+	color: deepskyblue;
+}
+
+.preloader:before {
+	border-color: deepskyblue deepskyblue transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid deepskyblue;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: deepskyblue;
+}
+
+.blog-sidebar-block__title:after {
+	background: deepskyblue;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: deepskyblue;
+}
+
+.blog-sidebar-list__link:before {
+	color: deepskyblue;
+}
+
+.blog-sidebar-list__link:hover {
+	color: deepskyblue;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: deepskyblue;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: deepskyblue;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: deepskyblue;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: deepskyblue;
+}
+
+.post-date {
+	background: deepskyblue;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: deepskyblue;
+}
+
+.post-meta__link:hover {
+	color: deepskyblue;
+}
+
+.blog-author:after {
+	background: deepskyblue;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: deepskyblue;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: deepskyblue;
+}
+
+.blog-related-post-meta__title:hover {
+	color: deepskyblue;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: deepskyblue;
+}
+
+.comment-meta__author:hover {
+	color: deepskyblue;
+}
+
+.comment-reply-link:hover {
+	color: deepskyblue;
+}

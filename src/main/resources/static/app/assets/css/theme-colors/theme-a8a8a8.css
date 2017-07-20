@@ -1,0 +1,395 @@
+/**
+ * @version v1.1.6
+ * @build 2-18-2017
+ * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
+ * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
+ * @license SEE LICENSE IN http://themeforest.net/licenses
+ * @website http://likeaprothemes.com
+ */
+
+/********************************
+@ #A8A8A8 THEME
+********************************/
+.theme-color {
+	color: #A8A8A8;
+}
+
+.menu-desktop .menu__link:hover {
+	color: #A8A8A8;
+}
+
+.menu-desktop .menu__link:hover:after, .menu-desktop .menu__link_active:after {
+	background: #A8A8A8;
+}
+
+.menu-desktop .menu__link_active {
+	color: #A8A8A8;
+}
+
+.menu-desktop .submenu__link:hover {
+	background: #A8A8A8;
+}
+
+.menu-desktop .submenu-mega > .submenu .submenu .submenu__item:first-child:not(.submenu__item_empty):after {
+	background: #A8A8A8;
+}
+
+.menu-desktop .submenu-mega .submenu__link:hover {
+	color: #A8A8A8;
+}
+
+.menu-mobile .menu__link:hover {
+	background: #A8A8A8;
+}
+
+.menu-mobile .menu__link_pressed {
+	color: #A8A8A8;
+}
+
+.menu-mobile .submenu__link:hover {
+	background: #A8A8A8;
+}
+
+.menu-toggle:hover .menu-toggle__inner, .menu-toggle:hover .menu-toggle__inner:after, .menu-toggle:hover .menu-toggle__inner:before {
+	background-color: #A8A8A8;
+}
+
+.main-video__title:after {
+	background: #A8A8A8;
+}
+
+.pro-item__timeline {
+	background: #A8A8A8;
+}
+
+.main-5-slider-text__title_before:before {
+	background: #A8A8A8;
+}
+
+.main-5-slider-text__title_after:after {
+	background: #A8A8A8;
+}
+
+.features-1 .features-item__icon {
+	background: #A8A8A8;
+}
+
+.features-1 .features-item__icon:after {
+	border: 2px solid #A8A8A8;
+}
+
+.features-1 .features-item__link {
+	color: #A8A8A8;
+}
+
+.features-2 .features-item {
+	background: #A8A8A8;
+}
+
+.features-3 .features-item__icon {
+	color: #A8A8A8;
+}
+
+.portfolio-item__wrap:before {
+	background: #A8A8A8;
+}
+
+.portfolio-item__wrap:hover:before {
+	background: #A8A8A8;
+}
+
+.portfolio-filter__item:hover {
+	color: #A8A8A8;
+}
+
+.portfolio-filter__item_active {
+	color: #A8A8A8 !important;
+}
+
+.section-arrow:before {
+	color: #A8A8A8;
+}
+
+.s-get-it__bg:before {
+	background: #A8A8A8;
+}
+
+.s-get-it-2 {
+	background: #A8A8A8;
+}
+
+.s-get-it-2-triangle:before {
+	border-color: transparent transparent #A8A8A8;
+}
+
+.process :nth-child(2n+1) .process-item {
+	background: #A8A8A8;
+}
+
+.process-subitem__ico:before {
+	color: #A8A8A8;
+}
+
+.s-blog-post:after {
+	background: #A8A8A8;
+}
+
+.team-item-social__icon:hover {
+	border-color: #A8A8A8;
+}
+
+.team-item-social__icon:hover:before {
+	color: #A8A8A8;
+}
+
+.team-item-details {
+	background: #A8A8A8;
+}
+
+.team-2-item-social__icon:hover {
+	color: #A8A8A8;
+}
+
+.skills-graph-linear__bar, .skills-graph-linear__bg:after {
+	background: #A8A8A8;
+}
+
+.skills-graph-circle__bar {
+	stroke: #A8A8A8;
+}
+
+.skills-graph-circle__bg {
+	stroke: #A8A8A8;
+}
+
+.counters__bg:before {
+	background: #A8A8A8;
+}
+
+.counters-item__count.counters-item__count_color_theme, .counters-item__ico.counters-item__ico_color_theme {
+	color: #A8A8A8;
+}
+
+.offer-1-features-item:before {
+	color: #A8A8A8;
+}
+
+.offer-2 :nth-child(2n) .offer-2-item {
+	background: #A8A8A8;
+}
+
+.offer-2-subitem__ico:before {
+	color: #A8A8A8;
+}
+
+.offer-3-feature__ico {
+	background: #A8A8A8;
+}
+
+.offer-3-feature__ico:after {
+	border: 16px solid #A8A8A8;
+}
+
+.offer-3-feature__name {
+	color: #A8A8A8;
+}
+
+.offer-3-feature__name:after, .offer-3-feature__name:before {
+	background: #A8A8A8;
+}
+
+.s-clients:before {
+	background: #A8A8A8;
+}
+
+.clients-item__text:after, .clients-item__text:before {
+	color: #A8A8A8;
+}
+
+.clients-item__name {
+	color: #A8A8A8;
+}
+
+.clients-dots__dot.active {
+	background: #A8A8A8;
+}
+
+.footer__title:after {
+	background: #A8A8A8;
+}
+
+.footer-contacts__link {
+	color: #A8A8A8;
+}
+
+.footer-social__item:hover:before {
+	color: #A8A8A8;
+}
+
+.footer-twitter-feed-vertical__list a {
+	color: #A8A8A8;
+}
+
+.footer-twitter-feed-vertical__item:before {
+	color: #A8A8A8;
+}
+
+.footer-form__submit:hover {
+	background: #A8A8A8;
+}
+
+.footer-menu__link:hover, .footer-menu__link_active {
+	color: #A8A8A8;
+}
+
+.footer-menu__link:after {
+	background: #A8A8A8;
+}
+
+.likeapro:hover {
+	color: #A8A8A8;
+}
+
+.faq-q:before {
+	color: #A8A8A8;
+}
+
+.faq-a:after, .faq-a:before {
+	background: #A8A8A8;
+}
+
+.four04-title {
+	color: #A8A8A8;
+}
+
+.four04-text {
+	color: #A8A8A8;
+}
+
+.contact-info__link:hover {
+	color: #A8A8A8 !important;
+}
+
+.contact-form__submit {
+	background: #A8A8A8;
+}
+
+.section-2 .section__title:after {
+	background: #A8A8A8;
+}
+
+.google-maps__marker {
+	border: 4px solid #A8A8A8;
+}
+
+.btn-a_color_theme:hover:after, .btn-a_fill_theme:after {
+	background: #A8A8A8;
+}
+
+.btn-a_color_theme {
+	color: #A8A8A8;
+}
+
+.btn-a_color_theme {
+	border-color: #A8A8A8;
+}
+
+.btn-a_fill_theme {
+	border-color: #A8A8A8;
+}
+
+.btn-a_fill_theme:hover {
+	color: #A8A8A8;
+}
+
+.modal__info:hover:before {
+	color: #A8A8A8;
+}
+
+.project-modal__url {
+	color: #A8A8A8;
+}
+
+.preloader:before {
+	border-color: #A8A8A8 #A8A8A8 transparent;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	border: 1px solid #A8A8A8;
+}
+
+.blog-nav__link:hover, .blog-nav__link_active {
+	background: #A8A8A8;
+}
+
+.blog-sidebar-block__title:after {
+	background: #A8A8A8;
+}
+
+.blog-sidebar-search__submit:hover {
+	color: #A8A8A8;
+}
+
+.blog-sidebar-list__link:before {
+	color: #A8A8A8;
+}
+
+.blog-sidebar-list__link:hover {
+	color: #A8A8A8;
+}
+
+.blog-sidebar-tags__tag:hover {
+	color: #A8A8A8;
+}
+
+.blog-sidebar-tags__tag:hover {
+	border-color: #A8A8A8;
+}
+
+.post-format-image .post-title:hover, .post-format-slider .post-title:hover {
+	color: #A8A8A8;
+}
+
+.post-format-simple .post-title:hover, .post-format-video .post-title:hover {
+	color: #A8A8A8;
+}
+
+.post-date {
+	background: #A8A8A8;
+}
+
+.post-content-quote:after, .post-content-quote:before {
+	background: #A8A8A8;
+}
+
+.post-meta__link:hover {
+	color: #A8A8A8;
+}
+
+.blog-author:after {
+	background: #A8A8A8;
+}
+
+.blog-related-post-thumb__inner:after {
+	background: #A8A8A8;
+}
+
+.blog-related-post-thumb:hover .blog-related-post-thumb__inner:after {
+	background: #A8A8A8;
+}
+
+.blog-related-post-meta__title:hover {
+	color: #A8A8A8;
+}
+
+.blog-related-post-meta-comments__link:hover {
+	color: #A8A8A8;
+}
+
+.comment-meta__author:hover {
+	color: #A8A8A8;
+}
+
+.comment-reply-link:hover {
+	color: #A8A8A8;
+}
