@@ -4301,7 +4301,7 @@ header, section {
 
 .header-logo__link {
 	height: 80px;
-	font-family: "Lato", "Helvetica", sans-serif;
+	font-family: 'Dosis', sans-serif;
 	color: #fff;
 	display: inline-block;
 	vertical-align: middle;
@@ -9176,7 +9176,7 @@ header, section {
 }
 
 .project-modal__client:before {
-	content: 'Client name: ';
+	content: 'Cliente: ';
 	font-weight: 400;
 	color: #fff;
 }
@@ -9186,7 +9186,7 @@ header, section {
 }
 
 .project-modal__date:before {
-	content: 'Date: ';
+	content: 'Fecha: ';
 	font-weight: 400;
 	color: #fff;
 }

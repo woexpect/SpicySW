@@ -10,6 +10,10 @@
 /********************************
 @ #FF4D56 THEME
 ********************************/
+.dosis{
+	font-family: 'Dosis', sans-serif;
+}
+
 .theme-color {
 	color: #FF4D56;
 }
