@@ -6796,6 +6796,7 @@ header, section {
 }
 
 .team-item__wrap {
+	color: white;
 	position: relative;
 	line-height: 0;
 }
@@ -6815,7 +6816,13 @@ header, section {
 	transition: 0.5s opacity;
 }
 
-.team-item__wrap:hover .team-item-social__link {
+.team-item__wrap:hover .team-item-social__link{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.team-item__wrap:hover .team-item-social__text{
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
@@ -6836,6 +6843,15 @@ header, section {
 
 .team-item-social__link {
 	display: inline-block;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+
+.team-item-social__text {
+	display: block;
+	/**margin-bottom: 240px;*/
+	color: white;
 	-webkit-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
@@ -8047,6 +8063,11 @@ header, section {
 	width: 15%;
 }
 
+/*agregado*/
+.footer-top [class^="col-"]:hover .footer__subtitle:after {
+	width: 15%;
+}
+
 .footer__title {
 	position: relative;
 	padding-top: 30px;
@@ -8058,7 +8079,31 @@ header, section {
 	text-transform: uppercase;
 }
 
+/*agregado*/
+.footer__subtitle {
+	position: relative;
+	padding-top: 8px;
+	color: #fff;
+	font-family: "Lato", "Helvetica", sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
 .footer__title:before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: calc(100% + 15px);
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #142027;
+}
+
+/*agregado*/
+.footer__subtitle:before {
 	content: '';
 	position: absolute;
 	display: block;
@@ -8078,6 +8123,20 @@ header, section {
 	width: 20px;
 	height: 1px;
 	background: #55C594;
+	-webkit-transition: 0.6s width;
+	transition: 0.6s width;
+}
+
+/*agregado*/
+.footer__subtitle:after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: calc(100% + 15px);
+	left: 0;
+	width: 20px;
+	height: 1px;
+	background: #FF4D56;
 	-webkit-transition: 0.6s width;
 	transition: 0.6s width;
 }
